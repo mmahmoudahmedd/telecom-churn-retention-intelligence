@@ -1,0 +1,11 @@
+.venv
+.git
+__pycache__
+.pytest_cache
+artifacts
+data
+tests
+reports/*.log
+reports/*.pid
+reports/validation.txt
+reports/sample_scored.csv

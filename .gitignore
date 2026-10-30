@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+artifacts/*.joblib
+reports/*.log
+reports/*.pid
+.env
+.env.*
+.streamlit/secrets.toml
+reports/validation.txt

@@ -1,0 +1,176 @@
+{
+  "selected_model": "xgboost",
+  "threshold": 0.37499999999999994,
+  "selection": "Validation average precision; validation F1 threshold",
+  "validation": {
+    "dummy": {
+      "roc_auc": 0.5,
+      "pr_auc": 0.2654364797728886,
+      "brier": 0.19497996730765565,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          1035,
+          0
+        ],
+        [
+          374,
+          0
+        ]
+      ],
+      "lift_at_10pct": 1.0687601926650738
+    },
+    "logistic": {
+      "roc_auc": 0.8359877547857087,
+      "pr_auc": 0.6422751776911828,
+      "brier": 0.13810591225359098,
+      "precision": 0.6600660066006601,
+      "recall": 0.5347593582887701,
+      "f1": 0.5908419497784343,
+      "confusion_matrix": [
+        [
+          932,
+          103
+        ],
+        [
+          174,
+          200
+        ]
+      ],
+      "lift_at_10pct": 2.805495505745818
+    },
+    "random_forest": {
+      "roc_auc": 0.8359309204577747,
+      "pr_auc": 0.6351831549625928,
+      "brier": 0.1386324074473561,
+      "precision": 0.6513409961685823,
+      "recall": 0.45454545454545453,
+      "f1": 0.5354330708661418,
+      "confusion_matrix": [
+        [
+          944,
+          91
+        ],
+        [
+          204,
+          170
+        ]
+      ],
+      "lift_at_10pct": 2.832214510562445
+    },
+    "xgboost": {
+      "roc_auc": 0.8402257872846108,
+      "pr_auc": 0.647571110450423,
+      "brier": 0.13694675266742706,
+      "precision": 0.6678445229681979,
+      "recall": 0.5053475935828877,
+      "f1": 0.5753424657534246,
+      "confusion_matrix": [
+        [
+          941,
+          94
+        ],
+        [
+          185,
+          189
+        ]
+      ],
+      "lift_at_10pct": 2.752057496112565
+    }
+  },
+  "test": {
+    "dummy": {
+      "roc_auc": 0.5,
+      "pr_auc": 0.2654364797728886,
+      "brier": 0.19497996730765563,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          1035,
+          0
+        ],
+        [
+          374,
+          0
+        ]
+      ],
+      "lift_at_10pct": 1.175636211931581
+    },
+    "logistic": {
+      "roc_auc": 0.8427652483918469,
+      "pr_auc": 0.6337547111350025,
+      "brier": 0.13775858219854942,
+      "precision": 0.6509433962264151,
+      "recall": 0.553475935828877,
+      "f1": 0.5982658959537572,
+      "confusion_matrix": [
+        [
+          924,
+          111
+        ],
+        [
+          167,
+          207
+        ]
+      ],
+      "lift_at_10pct": 2.805495505745818
+    },
+    "random_forest": {
+      "roc_auc": 0.8411364282208271,
+      "pr_auc": 0.6443808505147008,
+      "brier": 0.13716416958917693,
+      "precision": 0.6483516483516484,
+      "recall": 0.4732620320855615,
+      "f1": 0.5471406491499228,
+      "confusion_matrix": [
+        [
+          939,
+          96
+        ],
+        [
+          197,
+          177
+        ]
+      ],
+      "lift_at_10pct": 2.885652520195699
+    },
+    "xgboost": {
+      "roc_auc": 0.8445258208685319,
+      "pr_auc": 0.6597582762025297,
+      "brier": 0.13552352786064148,
+      "precision": 0.5755555555555556,
+      "recall": 0.6925133689839572,
+      "f1": 0.6286407766990292,
+      "confusion_matrix": [
+        [
+          844,
+          191
+        ],
+        [
+          115,
+          259
+        ]
+      ],
+      "lift_at_10pct": 2.939090529828953
+    }
+  },
+  "rows": 7043,
+  "churn_rate": 0.2653698707936959,
+  "splits": {
+    "train": 4225,
+    "validation": 1409,
+    "test": 1409
+  },
+  "data_url": "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv",
+  "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+  "assumptions": {
+    "months": 6,
+    "margin": 0.4,
+    "success": 0.2,
+    "cost": 15
+  }
+}
